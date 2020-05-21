@@ -1,24 +1,33 @@
 # handWritingToText
 
-	* Little app that tries to read your hand writing(or should I say mouse-hand writing)
+* Little app that tries to read your writing
 	
-	
-	
-# Results
+## Demo
 
-	* Will upload soon
+![](output.gif)
 
+## Install prerequisites
 
-## Requirements
+* tesseract-ocr
 
-	* tesseract-ocr
-	
+```
+sudo apt install tesseract-ocr
+sudo apt install libtesseract-dev
+```
 
-## Tested on
+* Python modules
 
-	* Linux (Pop_os 20.04)
+```
+pip install -r requirements.txt
+```
 
+## How to use
+```
+git clone https://github.com/nomspls/handWritingToText.git
+cd handWritingToText
+python WordReader.py   # or python3 WordReader.py
+```
 
 ## Built with
 
-	* Python
+* Python

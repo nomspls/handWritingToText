@@ -1,0 +1,4 @@
+pytesseract==0.3.4
+opencv_python==4.2.0.34
+Kivy==1.11.1
+Pillow==7.1.2
